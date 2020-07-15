@@ -12,7 +12,7 @@ const AddedFeature = props => {
           e.preventDefault();
           props.removeFeature(props.feature)
       }}>
-        [X] REMOVE FEATURE
+      REMOVE FEATURE
       </button>
       {props.feature.name}
     </li>
